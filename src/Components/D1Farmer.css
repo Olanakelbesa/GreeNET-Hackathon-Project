@@ -2,11 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 
-body {
-	margin: 0;
-	line-height: normal;
-}
-
 :root {
 	/* fonts */
 	--font-dm-sans: "DM Sans";
@@ -46,6 +41,11 @@ body {
 	--br-5xl: 24px;
 	--br-4xs: 9px;
 	--br-9xs: 4px;
+}
+
+body {
+	margin: 0;
+	line-height: normal;
 }
 
 .personal-detail-1-icon {
@@ -434,7 +434,6 @@ body {
 .d-1-farmer {
 	width: 100%;
 	position: relative;
-	/* height: 932px; */
 	overflow: hidden;
 	justify-content: center;
 	padding: 10px;
@@ -443,4 +442,67 @@ body {
 	font-size: 36px;
 	color: var(--color-black);
 	font-family: var(--font-roboto);
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+	.personal-detail-1-icon {
+		top: 5px;
+		left: 10px;
+		width: 150px;
+		height: 100px;
+	}
+	.discover-a-diverse {
+		padding: 0px 60px;
+	}
+
+	.movie-card {
+		width: 100%;
+		height: auto;
+	}
+
+	.trending-parent {
+		align-items: center;
+	}
+
+	.wrapper {
+		padding: var(--padding-4xs) var(--padding-lg);
+	}
+
+	.progress {
+		width: 100%;
+	}
+
+	.frame-parent,
+	.personalization-inner {
+		width: 100%;
+		padding: var(--padding-13xl) 20px;
+	}
+
+	.frame-parent2 {
+		gap: var(--gap-xs);
+	}
+
+	.frame-parent3 {
+		padding: 2px 10px;
+		gap: var(--gap-xs);
+	}
+
+	.continue-parent,
+	.frame-parent7 {
+		align-items: center;
+		padding: var(--padding-4xs) var(--padding-5xl);
+	}
+
+	.right-1-parent {
+		width: auto;
+		padding: var(--padding-xs) var(--padding-lg);
+	}
+
+	.frame-parent4,
+	.frame-parent5,
+	.frame-parent6 {
+		width: 100%;
+		text-align: center;
+	}
 }

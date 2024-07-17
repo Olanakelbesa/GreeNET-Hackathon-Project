@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import personalDetail from "../assets/images/personalization3-1.svg";
-import right1 from "../assets/icons/right-1-1.svg";
 import right2 from "../assets/icons/right-1-2.svg";
 import right3 from "../assets/icons/right-1.svg";
 import "./D2Farmer.css";
