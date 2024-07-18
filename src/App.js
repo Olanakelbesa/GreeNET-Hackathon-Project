@@ -8,10 +8,7 @@ import D2Farmer from "./Components/D2Farmer";
 function App() {
 	return (
 		<div className="App">
-			<D2Farmer />
-			{/* <NavBar />
-			<LandingPage />
-			<Footer /> */}
+			<SignUp />
 		</div>
 	);
 }
